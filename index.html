@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <title>Gronntech Machine</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="names">
+        <p>Carlos Gomes - RA: 01202063</p>
+        <p>Guilherme Guedes - RA: 01202015</p>
+        <p>Guilherme Sousa - RA: 01202117</p>
+        <p>Kennedy Obi - RA: 01202022</p>
+        <p>Lucas Yudi - RA: 01202030</p>
+        <p>Luis Gustavo - RA: 01202112</p>
+        <p>Roberto Gomes - RA: 01201125</p>
+      </div>
+      <div class="container-calculator">
+        <strong>Gronntech Machine</strong>
+        <div class="calculator">
+          <div class="container-input">
+            <label for="decimal" class="label">Decimal</label>
+            <input class="input" id="decimal" placeholder="0" />
+          </div>
+          <div class="container-input">
+            <label for="binario" class="label">Binário</label>
+            <input class="input" id="binario" placeholder="0" />
+          </div>
+          <div class="container-input">
+            <label for="octal" class="label">Octal</label>
+            <input class="input" id="octal" placeholder="0" />
+          </div>
+          <div class="container-input">
+            <label for="hexadecimal" class="label">Hexadecimal</label>
+            <input class="input" id="hexadecimal" placeholder="0" />
+          </div>
+
+          <button id="button" onclick="zerar()" class="button">Zerar</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="calculator.js"></script>
+  </body>
+</html>
